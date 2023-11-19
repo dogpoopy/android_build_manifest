@@ -36,6 +36,12 @@
           remote="github"
           revision="lineage-20" />
 
+ <remove-project name="android_vendor_arrow" />
+ <project path="vendor/arrow"
+          name="dogpoopy/android_vendor_arrow"
+          remote="github"
+          revision="arrow-13.1" /> 
+
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
           name="clang-r498229b"
