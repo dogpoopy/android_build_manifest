@@ -42,6 +42,11 @@
           remote="github"
           revision="arrow-13.1" /> 
 
+ <remove-project name="android_frameworks_base" />
+ <project path="frameworks/base"
+          name="dogpoopy/android_frameworks_base"
+          remote="github"
+          revision="arrow-13.1" /> 
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
           name="clang-r498229b"
