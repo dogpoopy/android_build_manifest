@@ -32,9 +32,9 @@
           revision="main" />
 
  <project path="hardware/xiaomi"
-          name="LineageOS/android_hardware_xiaomi"
+          name="ArrowOS-Devices/android_hardware_xiaomi"
           remote="github"
-          revision="lineage-20" />
+          revision="arrow-13.1" />
 
  <remove-project name="android_vendor_arrow" />
  <project path="vendor/arrow"
