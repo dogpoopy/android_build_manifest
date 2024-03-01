@@ -19,7 +19,7 @@
  <project path="vendor/xiaomi/vayu"
           name="android_vendor_xiaomi_vayu"
           remote="hub"
-          revision="dolbyA13" />
+          revision="clean" />
  
  <project path="kernel/xiaomi/vayu"
           name="dogpoopy/android_kernel_xiaomi_vayu"
@@ -28,7 +28,7 @@
  
  <project path="vendor/xiaomi/vayu-miuicamera"
           name="vendor_xiaomi_vayu-miuicamera"
-          remote="hub"
+          remote="lab"
           revision="main" />
 
  <project path="hardware/xiaomi"
@@ -36,12 +36,10 @@
           revision="lineage-20"
           remote="hub" />
 
- <remove-project name="frameworks_av" />
-
- <project path="frameworks/av"
-          name="frameworks_av"
-          remote="hub"
-          revision="thirteen" /> 
+ <project path="vendor/dolby"
+          name="vendor_dolby"
+          remote="lab"
+          revision="A13" />
 
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
