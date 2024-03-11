@@ -35,12 +35,7 @@
           name="android_hardware_xiaomi"
           revision="lineage-20"
           remote="hub" />
-
- <project path="vendor/dolby"
-          name="vendor_dolby"
-          remote="lab"
-          revision="A13" />
-
+ 
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
           name="clang-r498229b"
