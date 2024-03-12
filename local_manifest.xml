@@ -14,12 +14,12 @@
  <project path="device/xiaomi/vayu"
           name="android_device_xiaomi_vayu"
           remote="hub"
-          revision="PE-fourteen" />
+          revision="PixelOS-fourteen" />
  
  <project path="vendor/xiaomi/vayu"
           name="android_vendor_xiaomi_vayu"
           remote="hub"
-          revision="clean" />
+          revision="main" />
  
  <project path="kernel/xiaomi/vayu"
           name="dogpoopy/android_kernel_xiaomi_vayu"
@@ -33,7 +33,7 @@
 
  <project path="hardware/xiaomi"
           name="android_hardware_xiaomi"
-          revision="lineage-21"
+          revision="pixelos-14"
           remote="hub" />
 
   <!-- Clang -->
