@@ -36,10 +36,4 @@
           revision="pixelos-14"
           remote="hub" />
 
-  <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
-          name="clang-r498229b"
-          remote="lab"
-          revision="13.0" />
-
 </manifest>
