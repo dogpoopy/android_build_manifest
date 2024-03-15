@@ -36,4 +36,6 @@
           revision="pixelos-14"
           remote="hub" />
 
+ <remove-project name="vendor_gms" />
+
 </manifest>
