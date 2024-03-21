@@ -38,4 +38,10 @@
 
  <remove-project name="vendor_gms" />
 
+ <remove-project name="vendor_aosp" />
+ <project path="vendor/aosp"
+          name="vendor_aosp"
+          revision="fourteen"
+          remote="hub" />
+
 </manifest>
